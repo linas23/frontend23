@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #292121;
+  color: white; }
+
+.container {
+  margin: 0 auto;
+  width: 85%; }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  background: dodgerblue; }
+  .navbar .header {
+    display: flex; }
+    .navbar .header .logo {
+      margin: 10px; }
+    .navbar .header .brand {
+      margin: 10px;
+      font-size: 1.4rem; }
+  .navbar .nav {
+    display: flex;
+    flex-direction: row; }
+    .navbar .nav div {
+      margin: 10px 15px; }
+      .navbar .nav div a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase; }
+
+.main {
+  height: 80vh;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .main .image img {
+    height: 150px;
+    width: 200px; }
+  .main .title {
+    font-size: 2.8rem; }
+  .main .subheading {
+    font-size: 1.5rem; }
+  .main .ratings span {
+    background: white;
+    color: black;
+    font-size: 2rem;
+    padding: 5px; }
+  .main .details {
+    display: flex;
+    justify-content: center; }
+    .main .details div {
+      background: grey;
+      color: white;
+      margin: 2px;
+      width: 150px;
+      position: relative; }
+    .main .details span {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      background: green; }
+  .main .buttons button {
+    height: 50px;
+    width: 120px;
+    font-size: 16px; }
+  .main .ad {
+    background: black;
+    width: 300px;
+    display: flex;
+    padding: 15px;
+    margin: 0 auto; }
+    .main .ad .image {
+      font-size: 12px; }
+    .main .ad img {
+      width: 75%;
+      height: 50%; }
+    .main .ad .description {
+      padding: 10px;
+      text-align: justify; }

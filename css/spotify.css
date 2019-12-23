@@ -1,0 +1,183 @@
+body {
+  background-image: url(/images/monkey-3251530_1280.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5vh;
+  color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  align-items: center; }
+  .main #navbar {
+    margin-top: 5vh; }
+    .main #navbar header {
+      display: flex; }
+      .main #navbar header .brand {
+        font-size: 3rem;
+        margin-left: 25px; }
+      .main #navbar header .brand:hover, .main #navbar header .logo:hover {
+        cursor: pointer; }
+  .main #links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    /* div{
+            width: 200px;
+        }
+        div:nth-child(3){
+            border-right: 2px solid white;
+        } */ }
+    .main #links div:hover {
+      color: green; }
+
+.header {
+  font-size: 3rem;
+  padding: 30px;
+  color: white; }
+
+.subheading {
+  font-size: 2.3rem;
+  color: white;
+  padding: 30px; }
+
+.social {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px; }
+  .social a {
+    margin: 10px; }
+    .social a i {
+      color: #6e046e; }
+    .social a i:hover {
+      color: green; }
+
+.middle {
+  margin: 0 auto;
+  margin-top: 20vh;
+  height: 25vh;
+  width: 80%;
+  text-align: center; }
+  .middle p {
+    font-size: 2.3rem;
+    color: black;
+    font-weight: 777;
+    line-height: 4rem; }
+
+.images {
+  margin: 0 auto;
+  width: 90%;
+  display: flex; }
+  .images .image {
+    width: 25%;
+    padding: 10px;
+    height: 450px;
+    text-align: center; }
+    .images .image img {
+      width: 300px;
+      height: 220px; }
+    .images .image img:hover {
+      transition: all 0.5s ease-in-out;
+      transform: scale(1.2); }
+    .images .image .head p {
+      font-size: 1.5rem; }
+    .images .image .subhead p {
+      font-size: 1.3rem; }
+
+footer {
+  background: black;
+  width: 100%;
+  height: 375px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  footer .first {
+    display: flex;
+    align-items: flex-start; }
+    footer .first .logo a i {
+      color: white; }
+    footer .first .brand a {
+      color: white;
+      font-size: 2.3rem;
+      text-decoration: none;
+      padding: 10px; }
+  footer .numbered {
+    padding: 55px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    footer .numbered .head {
+      color: grey;
+      font-size: 14px;
+      text-transform: uppercase; }
+    footer .numbered a {
+      color: white;
+      margin: 10px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-transform: capitalize; }
+    footer .numbered a:hover {
+      color: green; }
+  footer .social {
+    padding: 55px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end; }
+    footer .social a {
+      height: 80px;
+      width: 80px;
+      background: #1a1717;
+      text-align: center;
+      border-radius: 50%; }
+      footer .social a i {
+        margin-top: 15px;
+        position: relative;
+        color: white; }
+      footer .social a i:hover {
+        transition: all 1s ease;
+        color: green; }
+    footer .social a:hover {
+      transition: all 1s ease;
+      height: 70px;
+      width: 70px; }
+
+.last {
+  background: black;
+  color: grey;
+  display: flex;
+  justify-content: space-between; }
+  .last .left {
+    padding: 50px;
+    margin-left: 10vw; }
+    .last .left a {
+      margin: 10px;
+      color: grey;
+      text-decoration: none; }
+    .last .left a:hover {
+      color: green; }
+  .last .right {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10vw; }
+    .last .right div {
+      margin: 5px; }
+      .last .right div a {
+        color: grey;
+        text-decoration: none; }
+      .last .right div a:hover {
+        color: green; }
