@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch":"node-sass --watch sass/spotify.scss css/spotify.css"
+    "watch":"node-sass --watch sass/apple.scss css/apple.css"
   },
   "author": "",
   "license": "ISC",

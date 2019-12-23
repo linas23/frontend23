@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  height: 100%; }
+
+.navbar {
+  background: #3b3a3a;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 250px;
+  position: sticky;
+  top: 0;
+  left: 0; }
+  .navbar li {
+    list-style-type: none;
+    margin: 0px 35px; }
+    .navbar li a {
+      text-decoration: none;
+      color: #c5c1c1; }
+
+.limitedtime {
+  text-align: center;
+  height: 200px;
+  background: grey;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 777;
+  justify-content: space-evenly;
+  background: whitesmoke; }
+  .limitedtime span {
+    text-align: center;
+    border: 2px solid purple;
+    padding: 10px 20px;
+    border-radius: 30px; }
+  .limitedtime a {
+    color: blue;
+    margin: 20px;
+    text-decoration: none; }
+  .limitedtime a:hover {
+    cursor: pointer; }
+
+.giftlist {
+  padding: 30px;
+  background: #eef3f3; }
+  .giftlist a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-around;
+    color: black; }
+    .giftlist a h1 {
+      font-size: 3rem;
+      padding: 20px; }
+  .giftlist .apple {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+    justify-content: space-evenly; }
+    .giftlist .apple img {
+      padding: 20px;
+      height: 400px;
+      width: 33%; }
+
+.iphonepro {
+  background: url(/images/apple/pexels-photo-1202575.jpeg);
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: white;
+  text-align: center; }
+  .iphonepro .pro {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around; }
+    .iphonepro .pro h1 {
+      font-size: 3.3rem;
+      font-weight: 777;
+      letter-spacing: 0.5rem; }
+    .iphonepro .pro div a {
+      margin: 20px;
+      text-decoration: none;
+      font-size: 23px;
+      color: blue; }
+
+.iphone {
+  background-image: url(/images/apple/iphone11-select-2019-family.jfif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 50px;
+  background-attachment: scroll;
+  height: 700px; }
+  .iphone .i {
+    margin: 0 auto;
+    width: 85%;
+    padding: 30px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-right: 150px; }
+    .iphone .i h1 {
+      margin-top: 150px;
+      font-size: 3.3rem;
+      letter-spacing: 0.4rem; }
+    .iphone .i div a {
+      text-decoration: none;
+      color: blue;
+      font-size: 1.5rem;
+      margin: 30px; }
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%; }
+  .images div {
+    width: 50%;
+    padding: 30px; }
+    .images div img {
+      height: 100%;
+      width: 100%; }
+
+footer {
+  background: #dbd7d7; }
+  footer .foot {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px; }
+  footer .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px; }
+    footer .links .head {
+      color: black;
+      font-size: 1.3rem;
+      padding: 5px; }
+    footer .links li {
+      list-style-type: none;
+      padding: 5px; }
+      footer .links li a {
+        text-decoration: none;
+        color: grey; }
+    footer .links .second {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+    footer .links .fourth {
+      display: flex;
+      flex-direction: column; }
+  footer .mainfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px; }
+    footer .mainfooter div:nth-child(2) {
+      display: flex; }
+      footer .mainfooter div:nth-child(2) div {
+        padding: 10px;
+        border-right: 1px solid black; }
