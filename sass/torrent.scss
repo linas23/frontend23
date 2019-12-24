@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.line{
+    height: 8px;
+    background: orangered;
+}
+header{
+    background: black;
+    height: 35px;
+    padding: 0px 125px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    .left{
+        a{
+            padding: 0px 10px;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            font-size:13px;
+            border-right: 1px solid white;
+        }
+        a:nth-child(1){
+            color: green;
+        }
+    }
+    .right{
+        a{
+            padding: 0px 10px;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            
+        }
+        a:nth-child(2){
+            border-left: 1px solid white;
+            color: red;
+        }
+    }
+}
+
+main{
+    height: 100vh;
+    background: url(/images/adult-1867608_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 125%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    .header{
+        padding: 10px;
+        i{
+            color:greenyellow;
+        }
+        span{
+            font-size: 8rem;
+            p{
+                display: inline;
+                padding: 0;
+                margin: 0;
+                color: green;
+            }
+        }
+    }
+    .searchbar{
+        input{
+            // width: 100%;
+            width: 400px;
+            height: 30px;
+        }
+        div{
+            margin-left: -10px;
+            padding: 10px;
+            display: inline-block;
+            background: red;
+            font-size: 1.2rem;
+        }
+    }
+    .alternate{
+        width: 50%;
+        .title{
+            height: 50px;
+            background: orangered;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+        }   
+        p{
+            height: 100px;
+            background: rgb(49, 45, 45);
+            padding: 30px;
+            font-size: 1.2rem;
+            a{
+                color: red;
+                text-decoration: none;
+            }
+        }
+    }
+    .selections{
+        display: flex;
+        flex-direction:row;
+        width: 70%;
+        justify-content: space-around;
+        text-align: center;
+        div{
+            cursor: pointer;
+        }
+        .icon{
+            height: 80px;
+            width: 80px;
+            background: red;
+            border-radius: 50%;
+            margin: 20px;
+            position: relative;
+            i{
+                position: absolute;
+                top: 30%;
+                left: 25%;
+            }
+        }
+        .text{
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            // padding: 0px 10px;
+        }
+    }
+    .line{
+        height: 5px;
+        width: 100%;
+        background: orangered;
+    }
+}
+footer{
+    height: 25vh;
+    background: rgb(44, 35, 35);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    // text-align: center;
+    align-items: center;
+    .bitcoin{
+        height: 80px;
+        position: relative;
+        padding: 20px;
+        i{
+            position: absolute;
+            top: 5px;
+            left: -1.5vw;
+            border: 2px solid white;
+            border-radius: 50%;
+        }
+        span{
+            padding: 0px 15px;
+            background: grey;
+            font-size: 1.6rem;
+            color: white;
+        }
+    }
+    .links{
+        display: flex;
+        div{
+            margin: 0px 20px;
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: grey;
+                font-size: 1.4rem;
+            }
+        }
+        div:nth-child(2){
+            color: white;
+        }
+        
+    }
+    .mainfooter{
+        color: white;
+        font-size: 14px;
+    }
+}
