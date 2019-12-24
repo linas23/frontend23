@@ -86,3 +86,53 @@ body {
     .main .ad .description {
       padding: 10px;
       text-align: justify; }
+
+.threeblocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px;
+  grid-gap: 30px;
+  padding: 100px; }
+  .threeblocks .header {
+    padding: 10px 0px;
+    font-size: 2rem; }
+
+.ecosystem {
+  margin: 0 auto;
+  width: 95%; }
+  .ecosystem h1 {
+    padding: 20px; }
+  .ecosystem p {
+    padding: 0px 20px; }
+  .ecosystem .blocks {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly; }
+    .ecosystem .blocks .webpack {
+      background: teal;
+      height: 200px;
+      width: 400px;
+      position: relative; }
+      .ecosystem .blocks .webpack .box {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background: red;
+        top: 10px;
+        right: 10px; }
+      .ecosystem .blocks .webpack .heading {
+        position: absolute;
+        font-size: 1.4rem;
+        top: 10%;
+        left: 10px; }
+      .ecosystem .blocks .webpack .subhead {
+        position: absolute;
+        top: 30%;
+        font-size: 1.1rem;
+        left: 10px; }
+      .ecosystem .blocks .webpack p {
+        position: absolute;
+        top: 50%;
+        left: 10px; }
+    .ecosystem .blocks .webpack:hover {
+      box-shadow: 5px 5px black; }

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%; }
+
+nav {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  background: #333030; }
+  nav .brand {
+    display: flex; }
+    nav .brand .logo {
+      padding-left: 20px;
+      color: white;
+      font-size: 1.5rem; }
+      nav .brand .logo i {
+        padding: 10px;
+        color: red; }
+      nav .brand .logo sup {
+        font-size: 10px; }
+  nav .searchbar input {
+    width: 600px;
+    height: 30px; }
+  nav .searchbar span {
+    height: 100%;
+    background: white; }
+    nav .searchbar span i {
+      margin: 20px; }
+  nav .right {
+    display: flex;
+    padding: 20px; }
+    nav .right div {
+      margin: 10px;
+      padding: 10px; }
+
+main {
+  display: flex;
+  justify-content: flex-start; }
+  main .sidebar {
+    background: #333030;
+    width: 15%; }
+    main .sidebar .active {
+      background: #6b5a5a; }
+    main .sidebar div {
+      padding: 10px 20px;
+      height: 50px; }
+      main .sidebar div a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.7rem; }
+    main .sidebar div:hover {
+      cursor: pointer; }
+  main .body {
+    padding: 30px;
+    width: 85%;
+    background: #161515; }
+    main .body .header {
+      font-size: 1.7rem;
+      padding-bottom: 20px;
+      color: white; }
+    main .body .videos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      main .body .videos .video {
+        width: 25%;
+        height: 300px;
+        padding: 10px; }
+        main .body .videos .video img {
+          height: 100%;
+          width: 100%; }
+        main .body .videos .video .channel {
+          display: flex;
+          justify-content: space-between; }
+          main .body .videos .video .channel .logo {
+            padding: 10px; }
+          main .body .videos .video .channel .desc {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; }
+            main .body .videos .video .channel .desc .title {
+              font-size: 1.2rem;
+              color: white; }
+            main .body .videos .video .channel .desc .name {
+              color: grey; }
+            main .body .videos .video .channel .desc .views {
+              color: grey; }
